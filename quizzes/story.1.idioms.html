@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Story 1: The Unexpected Shortcut</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 750px; margin: 30px auto; padding: 0 16px; line-height: 1.6; }
+    .question { border: 1px solid #ddd; border-radius: 10px; padding: 16px; margin: 16px 0; }
+    label { display: block; margin: 8px 0; cursor: pointer; }
+    button { padding: 9px 16px; cursor: pointer; margin-top: 10px; }
+    .result { margin-top: 12px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Story 1: The Unexpected Shortcut</h1>
+  <p>Choose an answer, then click Check Answer.</p>
+  <div id="quiz"></div>
+  <p id="score"></p>
+
+  <script>
+    const questions = [
+      {
+        q: "You missed your train and don't know what to do. You're...",
+        options: ["in a pickle", "rolling with the punches", "stuck in traffic"],
+        correct: 0
+      },
+      {
+        q: "Your plans suddenly change, but you stay calm and adapt. You...",
+        options: ["are in a jam", "roll with the punches", "are not a car in sight"],
+        correct: 1
+      },
+      {
+        q: "You missed the bus, then it started raining. You say...",
+        options: ["This is just my luck!", "I'm rolling with traffic!", "I'm in sight!"],
+        correct: 0
+      },
+      {
+        q: "The road is crowded, and your car barely moves. You're...",
+        options: ["in a pickle", "stuck in traffic", "out of luck in sight"],
+        correct: 1
+      },
+      {
+        q: "There are absolutely no cars visible. There is...",
+        options: ["not another soul in sight", "not a car in sight", "a car in a pickle"],
+        correct: 1
+      }
+    ];
+
+    const quiz = document.getElementById("quiz");
+
+    questions.forEach((item, i) => {
+      const section = document.createElement("section");
+      section.className = "question";
+      section.innerHTML = `<h3>${i + 1}. ${item.q}</h3>`;
+
+      item.options.forEach((option, j) => {
+        const label = document.createElement("label");
+        label.innerHTML = `
+          <input type="radio" name="q${i}" value="${j}">
+          ${option}
+        `;
+        section.appendChild(label);
+      });
+
+      const button = document.createElement("button");
+      button.textContent = "Check Answer";
+
+      const result = document.createElement("p");
+      result.className = "result";
+      result.setAttribute("aria-live", "polite");
+
+      button.onclick = () => {
+        const selected = section.querySelector(`input[name="q${i}"]:checked`);
+
+        if (!selected) {
+          result.textContent = "Please select an answer first.";
+          result.style.color = "darkorange";
+          return;
+        }
+
+        const isCorrect = Number(selected.value) === item.correct;
+        result.textContent = isCorrect
+          ? `Correct! ✓ ${item.options[item.correct]}`
+          : `Not quite. The correct answer is: ${item.options[item.correct]}`;
+
+        result.style.color = isCorrect ? "green" : "crimson";
+      };
+
+      section.appendChild(button);
+      section.appendChild(result);
+      quiz.appendChild(section);
+    });
+  </script>
+</body>
+</html>
