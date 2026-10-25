@@ -1,36 +1,27 @@
-
-| Vocabulary  | Meaning                                                                             | Example Sentence                                                    |
-| ----------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| inequality  | A lack of fairness or equal opportunities                                           | Gender inequality affects people around the world.                  |
-| galvanize   | To motivate people to take action                                                   | The speech galvanized people into supporting the campaign.          |
-| advocate    | A person who publicly supports a cause; also a verb meaning to support it           | She is an advocate for equal opportunities.                         |
-| tangible    | Real, concrete, or able to be measured                                              | We need tangible results from our efforts.                          |
-| synonymous  | Having the same or nearly the same meaning                                          | Success is not synonymous with happiness.                           |
-| feminism    | The belief in equal rights and opportunities for all genders                        | Feminism promotes equal rights and opportunities.                   |
-| assumption  | Something accepted as true without proof                                            | Don't make assumptions about other people.                          |
-| sexualize   | To treat someone primarily in a sexual way                                          | The media should not sexualize young people.                        |
-| aggressive  | Forceful or confrontational in behavior                                             | He sounded aggressive during the argument.                          |
-| isolating   | Making someone feel separated from others                                           | Working alone for too long can feel isolating.                      |
-| counterpart | Someone or something that has a corresponding role or position                      | She earns the same salary as her male counterpart.                  |
-| afford      | To be able to do, have, or provide something; in formal contexts, to grant or allow | Everyone should be afforded the same opportunities.                 |
-| privilege   | An advantage or benefit that not everyone has                                       | Having access to quality education is a privilege.                  |
-| mentor      | An experienced person who guides someone                                            | My mentor helped me improve my programming skills.                  |
-| inadvertent | Unintentional; not done deliberately                                                | His inadvertent mistake caused a delay.                             |
-| prejudice   | An unfair opinion formed without sufficient knowledge                               | We should challenge prejudice in the workplace.                     |
-| stereotype  | A fixed, oversimplified belief about a group                                        | Gender stereotypes can limit people's choices.                      |
-| fragile     | Easily damaged or emotionally vulnerable                                            | His confidence became fragile after repeated criticism.             |
-| insecure    | Lacking confidence or feeling uncertain                                             | He felt insecure when speaking English.                             |
-| submissive  | Too willing to accept another person's authority or control                         | Nobody should be expected to be submissive because of their gender. |
-| vulnerable  | Open to emotional or physical harm; willing to show weakness                        | It takes courage to admit when you feel vulnerable.                 |
-| mantle      | A responsibility or important role that someone accepts                             | She took up the mantle of leadership.                               |
-| triumph     | A great victory or success                                                          | Their hard work led to triumph.                                     |
-| eclipse     | To surpass or overshadow something in importance or prominence                      | The new technology eclipsed the older method.                       |
-| ambition    | A strong desire to achieve something                                                | My ambition is to become a successful software engineer.            |
-| consequence | A result or effect of an action                                                     | Every decision has consequences.                                    |
-| spectrum    | A range of different positions, qualities, or possibilities                         | Opinions on this issue exist across a wide spectrum.                |
-| qualified   | Having the necessary skills, knowledge, or experience                               | I want to become qualified to work on AI projects.                  |
-| duty        | A responsibility or something you are expected to do                                | I feel it is my duty to help my colleagues.                         |
-| equality    | The state of having equal rights and opportunities                                  | Equality should be protected in every workplace.                    |
-| participate | To take part in an activity                                                         | I want to participate in the discussion.                            |
-| current     | Happening or existing now                                                           | At current rates, progress may take years.                          |
-| prejudice   | An unfair judgment about someone before knowing the facts                           | Education can help people overcome prejudice.                       |
+| Vocabulary      | Meaning                                                   | Example Sentence                                                            |
+| --------------- | --------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Reliable        | Able to work correctly and consistently                   | I build reliable applications for growing businesses.                       |
+| Entrepreneur    | A person who starts or runs a business                    | I help entrepreneurs turn their ideas into software products.               |
+| Platform        | A software environment or system that provides a service  | I'm developing a SaaS platform for small businesses.                        |
+| API             | A way for different software systems to communicate       | I can build an API that connects your application to external services.     |
+| Inventory       | The goods or products a business has available            | The system helps businesses manage their inventory.                         |
+| Financial       | Related to money or finances                              | I develop financial applications that help businesses track their expenses. |
+| E-commerce      | The buying and selling of products or services online     | I can build an e-commerce store for your business.                          |
+| Ground up       | The beginning or basic starting point of something        | We can build the entire system from the ground up.                          |
+| Launch          | To introduce a new product or service                     | I can help you launch your new SaaS product.                                |
+| Bug             | An error or defect in software                            | I found and fixed several bugs in the application.                          |
+| Performance     | How efficiently and quickly a system operates             | I'll investigate the performance issues on your website.                    |
+| Issue           | A problem that needs attention                            | I'm working on an issue with the payment API.                               |
+| Scope           | The defined work, features, and requirements of a project | Let's define the project scope before we start development.                 |
+| Maintain        | To keep something working properly                        | I write clean code that is easy to maintain.                                |
+| Extend          | To add new capabilities or features                       | We can extend the application by adding AI-powered features.                |
+| Scale           | To increase capacity as demand grows                      | We need an architecture that can scale as the number of users increases.    |
+| Documentation   | Written information explaining how software works         | I'll provide clear documentation for the API.                               |
+| Deploy          | To release software into an environment where it can run  | I'll deploy the application to your production server.                      |
+| Foundation      | The basic structure on which something is built           | A solid technical foundation makes future development easier.               |
+| Requirement     | Something a system must do or support                     | I'd like to understand your requirements before estimating the cost.        |
+| Solution        | A way to solve a problem or meet a need                   | I'll recommend a solution that fits your business needs.                    |
+| Entrepreneurial | Related to starting or running a business                 | I enjoy working with entrepreneurial teams to build new products.           |
+| Groundwork      | The initial preparation needed before doing the main work | We need to do some groundwork before designing the database.                |
+| Collaborate     | To work together with other people                        | I collaborate with designers and other developers to deliver projects.      |
+| Approach        | A method or way of handling something                     | I'll explain my approach before we begin implementation.                    |

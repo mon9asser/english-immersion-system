@@ -1,123 +1,23 @@
-## 1. Introduction: The HeForShe Campaign
+Hi, I’m Montasser, a full-stack software engineer and AI developer with over 14 years of experience.
 
-I am reaching out to you because I need your help. We want to end gender inequality—and to do that, we need everyone to be involved.
+I help startups, small businesses, and entrepreneurs turn their ideas into reliable software that can grow with their business.
 
-This is the first campaign of its kind at the UN: we want to try and galvanize as many men and boys as possible to be advocates for gender equality. And we don’t just want to talk about it, but make sure it is tangible.
+I build web and mobile apps, SaaS platforms, and APIs. I also develop business systems, including ERP, CRM, accounting, inventory, POS, and financial applications. And if you want to sell online, I can build e-commerce stores and content management systems.
 
-I was appointed six months ago, and the more I have spoken about feminism, the more I have realized that fighting for women’s rights has too often become synonymous with man-hating. If there is one thing I know for certain, it is that this has to stop.
+I also build AI solutions, like chatbots, AI agents, and RAG systems. And if you already have an application, I can help you add AI features to it.
 
-For the record, feminism by definition is: “The belief that men and women should have equal rights and opportunities. It is the theory of the political, economic and social equality of the sexes.”
+Maybe you’re launching a new product from the ground up. Or maybe your current app has bugs, performance issues, or API problems that are holding you back. Either way, I can help you solve those problems and get your project back on track.
 
-## 2. Why I Became a Feminist
+**[Show examples of your actual work on screen.]**
 
-I started questioning gender-based assumptions when, at eight, I was confused at being called “bossy” because I wanted to direct the plays we would put on for our parents—but the boys were not.
+I work with JavaScript, TypeScript, Python, and PHP. For full-stack development, I use Next.js and React. I also work with React Native for mobile apps, and backend technologies like Node.js, NestJS, FastAPI, Laravel, and Django.
 
-When, at 14, I started being sexualized by certain elements of the press.
+For databases and data management, I use PostgreSQL, MySQL, MongoDB, Prisma, and Supabase. I also use tools like Git, Docker, and Kubernetes to manage and deploy applications.
 
-When, at 15, my girlfriends started dropping out of their sports teams because they didn’t want to appear “muscly.”
+**[Show yourself coding and working on a real project.]**
 
-When, at 18, my male friends were unable to express their feelings.
+But writing code is only part of the job. I focus on clean, organized code, clear documentation, and building a solid foundation, so your application is easy to maintain, simple to extend, and ready to scale as your business grows.
 
-I decided I was a feminist, and this seemed uncomplicated to me.
+If you have a new idea or an existing application that needs some work, send me a message on Upwork. We can talk through your project and figure out the best way to move forward.
 
-But my recent research has shown me that feminism has become an unpopular word. Apparently, I am among the ranks of women whose expressions are seen as too strong, too aggressive, isolating, anti-men, and unattractive.
-
-Why is the word such an uncomfortable one?
-
-## 3. Gender Equality Is a Human Right
-
-I am from Britain, and I think it is right that, as a woman, I am paid the same as my male counterparts.
-
-I think it is right that I should be able to make decisions about my own body.
-
-I think it is right that women be involved on my behalf in the policies and decision-making of my country.
-
-I think it is right that, socially, I am afforded the same respect as men.
-
-But sadly, I can say that there is no one country in the world where all women can expect to receive these rights. No country in the world can yet say they have achieved gender equality.
-
-These rights I consider to be human rights, but I am one of the lucky ones.
-
-My life is a sheer privilege because my parents didn’t love me less because I was born a daughter. My school did not limit me because I was a girl. My mentors didn’t assume I would go less far because I might give birth to a child one day.
-
-These influencers were the gender equality ambassadors that made me who I am today.
-
-They may not know it, but they are the inadvertent feminists who are changing the world today. And we need more of those.
-
-And if you still hate the word, it is not the word that is important but the idea and the ambition behind it.
-
-Because not all women have been afforded the same rights that I have. In fact, statistically, very few have been.
-
-## 4. Why Men Must Be Part of the Conversation
-
-In 1995, Hilary Clinton made a famous speech in Beijing about women’s rights. Sadly, many of the things she wanted to change are still a reality today.
-
-But what stood out for me the most was that only 30 per cent of her audience were male.
-
-How can we affect change in the world when only half of it is invited or feel welcome to participate in the conversation?
-
-Men—I would like to take this opportunity to extend your formal invitation. Gender equality is your issue too.
-
-Because to date, I’ve seen my father’s role as a parent being valued less by society, despite my needing his presence as a child as much as my mother’s.
-
-I’ve seen young men suffering from mental illness, unable to ask for help for fear it would make them look less “macho”—in fact, in the UK, suicide is the biggest killer of men between 20–49 years of age, eclipsing road accidents, cancer, and coronary heart disease.
-
-I’ve seen men made fragile and insecure by a distorted sense of what constitutes male success.
-
-Men don’t have the benefits of equality either.
-
-We don’t often talk about men being imprisoned by gender stereotypes, but I can see that they are and that when they are free, things will change for women as a natural consequence.
-
-If men don’t have to be aggressive in order to be accepted, women won’t feel compelled to be submissive.
-
-If men don’t have to control, women won’t have to be controlled.
-
-Both men and women should feel free to be sensitive.
-
-Both men and women should feel free to be strong.
-
-## 5. Freedom from Gender Stereotypes
-
-It is time that we all perceive gender on a spectrum, not as two opposing sets of ideals.
-
-If we stop defining each other by what we are not and start defining ourselves by what we are, we can all be freer, and this is what HeForShe is about.
-
-It’s about freedom.
-
-I want men to take up this mantle. So their daughters, sisters, and mothers can be free from prejudice, but also so that their sons have permission to be vulnerable and human too—reclaim those parts of themselves they abandoned and, in doing so, be a more true and complete version of themselves.
-
-## 6. Why I Am Speaking Out
-
-You might be thinking, who is this Harry Potter girl? And what is she doing up on stage at the UN?
-
-It’s a good question, and trust me, I have been asking myself the same thing.
-
-I don’t know if I am qualified to be here. All I know is that I care about this problem. And I want to make it better.
-
-And having seen what I’ve seen—and given the chance—I feel it is my duty to say something.
-
-English statesman Edmund Burke said: “All that is needed for the forces of evil to triumph is for enough good men and women to do nothing.”
-
-In my nervousness for this speech and in my moments of doubt, I’ve told myself firmly—if not me, who? If not now, when?
-
-If you have similar doubts when opportunities are presented to you, I hope those words might be helpful.
-
-## 7. The Cost of Doing Nothing
-
-Because the reality is that if we do nothing, it will take 75 years, or for me to be nearly a hundred, before women can expect to be paid the same as men for the same work.
-
-15.5 million girls will be married in the next 16 years as children.
-
-And at current rates, it won’t be until 2086 before all rural African girls will be able to receive a secondary education.
-
-## 8. The Call to Action: HeForShe
-
-If you believe in equality, you might be one of those inadvertent feminists I spoke of earlier. And for this, I applaud you.
-
-We are struggling for a uniting word, but the good news is we have a uniting movement. It is called HeForShe.
-
-I am inviting you to step forward, to be seen, to speak up, to be the “he” for “she.”
-
-And to ask yourself: If not me, who? If not now, when?
-
-Thank you.
+Thanks for watching, and I look forward to hearing from you!
