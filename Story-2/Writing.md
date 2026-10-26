@@ -2,7 +2,7 @@ Hi, I’m Montasser, a full-stack software engineer and AI developer with over 1
 
 I help startups, small businesses, and entrepreneurs turn their ideas into reliable software that can grow with their business.
 
-I build web and mobile apps, SaaS platforms, and APIs. I also develop business systems, including ERP, CRM, accounting, inventory, POS, and financial applications. And if you want to sell online, I can build e-commerce stores and content management systems.
+I build web and mobile apps, SaaS platforms, and APIs. I also develop business systems, including ERP, CRM, accounting, inventory, POS, Healthcare, and financial applications. And if you want to sell online, I can build e-commerce stores and content management systems.
 
 I also build AI solutions, like chatbots, AI agents, and RAG systems. And if you already have an application, I can help you add AI features to it.
 
