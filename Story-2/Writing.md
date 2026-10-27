@@ -1,4 +1,4 @@
-Hi, I’m Montasser, a full-stack software engineer and AI developer with over 14 years of experience.
+Hi, I’m Montasser, a full-stack software developer and AI engineer with over 14 years of experience.
 
 I help startups, small businesses, and entrepreneurs turn their ideas into reliable software that can grow with their business.
 
@@ -6,7 +6,7 @@ I build web and mobile apps, SaaS platforms, and APIs. I also develop business s
 
 I also build AI solutions, like chatbots, AI agents, and RAG systems. And if you already have an application, I can help you add AI features to it.
 
-Maybe you’re launching a new product from the ground up. Or maybe your current app has bugs, performance issues, or API problems that are holding you back. Either way, I can help you solve those problems and get your project back on track.
+Maybe you’re starting a new product from the ground up. Or maybe your current app has bugs, performance issues, or API problems that are holding you back. Either way, I can help you solve those problems and get your project back on track.
 
 **[Show examples of your actual work on screen.]**
 
