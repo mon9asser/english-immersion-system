@@ -1,8 +1,9 @@
 
 import subprocess
 import tempfile
+import helper
 from pathlib import Path
-
+import re
 import yt_dlp
 from faster_whisper import WhisperModel
 
@@ -148,14 +149,14 @@ def create_transcripts(video_path, output_folder, duration, interval):
         print(f"Created: {transcript_file.name}")
 
 
-def main():
+def main(video_url, minutes):
     print("=== YouTube Video Splitter ===\n")
 
-    url = input("YouTube URL: ").strip()
+    url = video_url.strip()
 
     try:
         interval = int(
-            input("Split interval in minutes: ")
+            minutes
         )
 
         if interval <= 0:
@@ -208,4 +209,18 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    mins = input("Split interval in minutes: ")
+    listed = helper.scan()
+    for _scan in listed:
+        listening = Path(_scan.name) / "Listening.md"
+        if listening.exists():
+            content = listening.read_text(encoding="utf-8")
+
+            urls = re.findall(
+                r'https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)[^\s)]+',
+                content
+            )
+
+            for url in urls:
+                main(url, mins)
+    #main()

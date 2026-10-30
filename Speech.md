@@ -41,108 +41,60 @@
 | 39 | Next to |   |   |   |   |   |   |   |   |
 | 40 | As it happens |   |   |   |   |   |   |   |   |
 | 41 | Until next time |   |   |   |   |   |   |   |   |
-| 42 | grow with your business |   |   |   |   |   |   |   |   |
-| 43 | from the ground up |   |   |   |   |   |   |   |   |
-| 44 | add AI features |   |   |   |   |   |   |   |   |
-| 45 | hold you back |   |   |   |   |   |   |   |   |
-| 46 | get your project back on track |   |   |   |   |   |   |   |   |
-| 47 | show examples of your work |   |   |   |   |   |   |   |   |
-| 48 | clean, organized code |   |   |   |   |   |   |   |   |
-| 49 | a solid foundation |   |   |   |   |   |   |   |   |
-| 50 | easy to maintain |   |   |   |   |   |   |   |   |
-| 51 | simple to extend |   |   |   |   |   |   |   |   |
-| 52 | ready to scale |   |   |   |   |   |   |   |   |
-| 53 | talk through your project |   |   |   |   |   |   |   |   |
-| 54 | figure out the best way |   |   |   |   |   |   |   |   |
-| 55 | move forward |   |   |   |   |   |   |   |   |
-| 56 | work on an existing application |   |   |   |   |   |   |   |   |
-| 57 | solve a problem |   |   |   |   |   |   |   |   |
-| 58 | look forward to hearing from you |   |   |   |   |   |   |   |   |
-| 59 | the best way to move forward |   |   |   |   |   |   |   |   |
-| 60 | part of the job |   |   |   |   |   |   |   |   |
-| 61 | get back on track |   |   |   |   |   |   |   |   |
-| 62 | talk through something |   |   |   |   |   |   |   |   |
-| 63 | as your business grows |   |   |   |   |   |   |   |   |
-| 64 | work with |   |   |   |   |   |   |   |   |
-| 65 | from the beginning |   |   |   |   |   |   |   |   |
-| 66 | Entrepreneur |   |   |   |   |   |   |   |   |
-| 67 | Platform |   |   |   |   |   |   |   |   |
-| 68 | API |   |   |   |   |   |   |   |   |
-| 69 | Inventory |   |   |   |   |   |   |   |   |
-| 70 | Financial |   |   |   |   |   |   |   |   |
-| 71 | E-commerce |   |   |   |   |   |   |   |   |
-| 72 | Ground up |   |   |   |   |   |   |   |   |
-| 73 | Launch |   |   |   |   |   |   |   |   |
-| 74 | Bug |   |   |   |   |   |   |   |   |
-| 75 | Performance |   |   |   |   |   |   |   |   |
-| 76 | Issue |   |   |   |   |   |   |   |   |
-| 77 | Scope |   |   |   |   |   |   |   |   |
-| 78 | Maintain |   |   |   |   |   |   |   |   |
-| 79 | Extend |   |   |   |   |   |   |   |   |
-| 80 | Scale |   |   |   |   |   |   |   |   |
-| 81 | Documentation |   |   |   |   |   |   |   |   |
-| 82 | Deploy |   |   |   |   |   |   |   |   |
-| 83 | Foundation |   |   |   |   |   |   |   |   |
-| 84 | Requirement |   |   |   |   |   |   |   |   |
-| 85 | Solution |   |   |   |   |   |   |   |   |
-| 86 | Entrepreneurial |   |   |   |   |   |   |   |   |
-| 87 | Groundwork |   |   |   |   |   |   |   |   |
-| 88 | Collaborate |   |   |   |   |   |   |   |   |
-| 89 | Approach |   |   |   |   |   |   |   |   |
-| 90 | I am reaching out to you |   |   |   |   |   |   |   |   |
-| 91 | I need your help |   |   |   |   |   |   |   |   |
-| 92 | I have realized that… |   |   |   |   |   |   |   |   |
-| 93 | If there is one thing I know for certain… |   |   |   |   |   |   |   |   |
-| 94 | I think it is right that… |   |   |   |   |   |   |   |   |
-| 95 | I would like to take this opportunity to… |   |   |   |   |   |   |   |   |
-| 96 | All I know is that… |   |   |   |   |   |   |   |   |
-| 97 | I want to make it better |   |   |   |   |   |   |   |   |
-| 98 | You might be thinking… |   |   |   |   |   |   |   |   |
-| 99 | Trust me |   |   |   |   |   |   |   |   |
-| 100 | I feel it is my duty to… |   |   |   |   |   |   |   |   |
-| 101 | At current rates… |   |   |   |   |   |   |   |   |
-| 102 | I am inviting you to… |   |   |   |   |   |   |   |   |
-| 103 | What stood out for me the most was… |   |   |   |   |   |   |   |   |
-| 104 | This is what … is about |   |   |   |   |   |   |   |   |
-| 105 | for the record |   |   |   |   |   |   |   |   |
-| 106 | stand out |   |   |   |   |   |   |   |   |
-| 107 | take up the mantle |   |   |   |   |   |   |   |   |
-| 108 | step forward |   |   |   |   |   |   |   |   |
-| 109 | speak up |   |   |   |   |   |   |   |   |
-| 110 | in fact |   |   |   |   |   |   |   |   |
-| 111 | to date |   |   |   |   |   |   |   |   |
-| 112 | in doing so |   |   |   |   |   |   |   |   |
-| 113 | if not me, who? If not now, when? |   |   |   |   |   |   |   |   |
-| 114 | roll up your sleeves |   |   |   |   |   |   |   |   |
-| 115 | inequality |   |   |   |   |   |   |   |   |
-| 116 | galvanize |   |   |   |   |   |   |   |   |
-| 117 | advocate |   |   |   |   |   |   |   |   |
-| 118 | tangible |   |   |   |   |   |   |   |   |
-| 119 | synonymous |   |   |   |   |   |   |   |   |
-| 120 | feminism |   |   |   |   |   |   |   |   |
-| 121 | assumption |   |   |   |   |   |   |   |   |
-| 122 | sexualize |   |   |   |   |   |   |   |   |
-| 123 | aggressive |   |   |   |   |   |   |   |   |
-| 124 | isolating |   |   |   |   |   |   |   |   |
-| 125 | counterpart |   |   |   |   |   |   |   |   |
-| 126 | afford |   |   |   |   |   |   |   |   |
-| 127 | privilege |   |   |   |   |   |   |   |   |
-| 128 | mentor |   |   |   |   |   |   |   |   |
-| 129 | inadvertent |   |   |   |   |   |   |   |   |
-| 130 | prejudice |   |   |   |   |   |   |   |   |
-| 131 | stereotype |   |   |   |   |   |   |   |   |
-| 132 | fragile |   |   |   |   |   |   |   |   |
-| 133 | insecure |   |   |   |   |   |   |   |   |
-| 134 | submissive |   |   |   |   |   |   |   |   |
-| 135 | vulnerable |   |   |   |   |   |   |   |   |
-| 136 | mantle |   |   |   |   |   |   |   |   |
-| 137 | triumph |   |   |   |   |   |   |   |   |
-| 138 | eclipse |   |   |   |   |   |   |   |   |
-| 139 | ambition |   |   |   |   |   |   |   |   |
-| 140 | consequence |   |   |   |   |   |   |   |   |
-| 141 | spectrum |   |   |   |   |   |   |   |   |
-| 142 | qualified |   |   |   |   |   |   |   |   |
-| 143 | duty |   |   |   |   |   |   |   |   |
-| 144 | equality |   |   |   |   |   |   |   |   |
-| 145 | participate |   |   |   |   |   |   |   |   |
-| 146 | current |   |   |   |   |   |   |   |   |
+| 42 | I am reaching out to you |   |   |   |   |   |   |   |   |
+| 43 | I need your help |   |   |   |   |   |   |   |   |
+| 44 | I have realized that… |   |   |   |   |   |   |   |   |
+| 45 | If there is one thing I know for certain… |   |   |   |   |   |   |   |   |
+| 46 | I think it is right that… |   |   |   |   |   |   |   |   |
+| 47 | I would like to take this opportunity to… |   |   |   |   |   |   |   |   |
+| 48 | All I know is that… |   |   |   |   |   |   |   |   |
+| 49 | I want to make it better |   |   |   |   |   |   |   |   |
+| 50 | You might be thinking… |   |   |   |   |   |   |   |   |
+| 51 | Trust me |   |   |   |   |   |   |   |   |
+| 52 | I feel it is my duty to… |   |   |   |   |   |   |   |   |
+| 53 | At current rates… |   |   |   |   |   |   |   |   |
+| 54 | I am inviting you to… |   |   |   |   |   |   |   |   |
+| 55 | What stood out for me the most was… |   |   |   |   |   |   |   |   |
+| 56 | This is what … is about |   |   |   |   |   |   |   |   |
+| 57 | for the record |   |   |   |   |   |   |   |   |
+| 58 | stand out |   |   |   |   |   |   |   |   |
+| 59 | take up the mantle |   |   |   |   |   |   |   |   |
+| 60 | step forward |   |   |   |   |   |   |   |   |
+| 61 | speak up |   |   |   |   |   |   |   |   |
+| 62 | in fact |   |   |   |   |   |   |   |   |
+| 63 | to date |   |   |   |   |   |   |   |   |
+| 64 | in doing so |   |   |   |   |   |   |   |   |
+| 65 | if not me, who? If not now, when? |   |   |   |   |   |   |   |   |
+| 66 | roll up your sleeves |   |   |   |   |   |   |   |   |
+| 67 | inequality |   |   |   |   |   |   |   |   |
+| 68 | galvanize |   |   |   |   |   |   |   |   |
+| 69 | advocate |   |   |   |   |   |   |   |   |
+| 70 | tangible |   |   |   |   |   |   |   |   |
+| 71 | synonymous |   |   |   |   |   |   |   |   |
+| 72 | feminism |   |   |   |   |   |   |   |   |
+| 73 | assumption |   |   |   |   |   |   |   |   |
+| 74 | sexualize |   |   |   |   |   |   |   |   |
+| 75 | aggressive |   |   |   |   |   |   |   |   |
+| 76 | isolating |   |   |   |   |   |   |   |   |
+| 77 | counterpart |   |   |   |   |   |   |   |   |
+| 78 | afford |   |   |   |   |   |   |   |   |
+| 79 | privilege |   |   |   |   |   |   |   |   |
+| 80 | mentor |   |   |   |   |   |   |   |   |
+| 81 | inadvertent |   |   |   |   |   |   |   |   |
+| 82 | prejudice |   |   |   |   |   |   |   |   |
+| 83 | stereotype |   |   |   |   |   |   |   |   |
+| 84 | fragile |   |   |   |   |   |   |   |   |
+| 85 | insecure |   |   |   |   |   |   |   |   |
+| 86 | submissive |   |   |   |   |   |   |   |   |
+| 87 | vulnerable |   |   |   |   |   |   |   |   |
+| 88 | mantle |   |   |   |   |   |   |   |   |
+| 89 | triumph |   |   |   |   |   |   |   |   |
+| 90 | eclipse |   |   |   |   |   |   |   |   |
+| 91 | ambition |   |   |   |   |   |   |   |   |
+| 92 | consequence |   |   |   |   |   |   |   |   |
+| 93 | spectrum |   |   |   |   |   |   |   |   |
+| 94 | qualified |   |   |   |   |   |   |   |   |
+| 95 | duty |   |   |   |   |   |   |   |   |
+| 96 | equality |   |   |   |   |   |   |   |   |
+| 97 | participate |   |   |   |   |   |   |   |   |
+| 98 | current |   |   |   |   |   |   |   |   |
