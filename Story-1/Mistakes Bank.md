@@ -1,1 +1,0 @@
-## Story 1:  The Unexpected Shortcut
