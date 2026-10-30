@@ -50,7 +50,7 @@ def extractor(file, col=0):
 def scan():
     return [
         folder for folder in Path(".").iterdir()
-        if folder.is_dir() and folder.name.startswith("Story-")
+        if folder.is_dir() and folder.name.startswith("Video-")
     ]
 
 
@@ -87,7 +87,7 @@ def update_speech():
 
     new_words = []
 
-    # Scan story folders
+    # Scan Video folders
     for folder in scan():
 
         for name in names:
