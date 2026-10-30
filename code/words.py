@@ -107,7 +107,7 @@ def update_speech():
 
     new_rows = pd.DataFrame(
         [
-            [start + i, word] + ["[ ]"] * TOTAL_COLUMNS
+            [start + i, word] + ["- [ ]"] * TOTAL_COLUMNS
             for i, word in enumerate(new_words)
         ],
         columns=columns

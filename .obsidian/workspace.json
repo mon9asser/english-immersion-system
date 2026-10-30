@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f4f88ab112100d1f",
+        "id": "152bc3d81845c4a8",
         "type": "tabs",
         "children": [
           {
-            "id": "40093858e3eec8ed",
+            "id": "0f99de003656b9f7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Speech & Calling.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Speech & Calling"
+              "title": "New tab"
             }
           }
         ]
@@ -188,8 +184,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "565f5c9528f6d1b3",
+  "active": "0f99de003656b9f7",
   "lastOpenFiles": [
+    "Speech.md",
     "Speech & Calling.md",
     "Story-2/Expressions.md",
     "Story-1/Expressions.md",
@@ -215,7 +212,6 @@
     "Grammar Bank.md",
     "Listening Bank.md",
     "Mistakes Bank.md",
-    "Pronunciation Bank.md",
     "Records",
     "Month 1/Week 1",
     "Month 1"
