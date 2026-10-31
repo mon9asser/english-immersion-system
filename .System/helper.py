@@ -20,7 +20,7 @@ names = [
 DIR__ = "./Stories"
 columns = ["No.", "Word / Expression"] + [str(i) for i in range(1, TOTAL_COLUMNS + 1)]
 
-MEDIA_OUTPUT_DIR = Path("media")
+MEDIA_OUTPUT_DIR = Path("Media")
 WHISPER_MODEL = "small"
 
 
