@@ -1,4 +1,4 @@
-## Story 1:  The Unexpected Shortcut
+## Story 1: The Unexpected Shortcut
 
 | Idiom                  | Meaning                                         | Example Sentence                                                |
 | ---------------------- | ----------------------------------------------- | --------------------------------------------------------------- |
@@ -9,5 +9,3 @@
 | Stuck in traffic       | Unable to move freely because of heavy traffic  | I'm stuck in traffic right now.                                 |
 | Not a car in sight     | No cars can be seen anywhere                    | There wasn't a car in sight. not a car or another soul in sight |
 | Get out of a situation | Find a way to escape or solve a problem         | I need to get out of this difficult situation.                  |
-
-

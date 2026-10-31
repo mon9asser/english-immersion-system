@@ -1,4 +1,4 @@
-## Story 1:  The Unexpected Shortcut
+## Story 1: The Unexpected Shortcut
 
 | Grammar Point                      | Rule / Structure                                                | Example from the Story                             | Additional Example                           |
 | ---------------------------------- | --------------------------------------------------------------- | -------------------------------------------------- | -------------------------------------------- |
@@ -30,17 +30,17 @@
 ##### Important Notes
 
 - **Past Simple:** Use it for completed past events.
-    
+
 - **Past Continuous:** Use it for actions in progress at a past time or for background descriptions.
-    
+
 - **Past Perfect:** Use it when you need to show that one past event happened before another past event.
-    
-- **Because vs. Because of:** Use _because_ before a clause and _because of_ before a noun or noun phrase.
-    
-- **Without + verb-ing:** After the preposition _without_, use a noun or a gerund (verb-ing).
-    
+
+- **Because vs. Because of:** Use *because* before a clause and *because of* before a noun or noun phrase.
+
+- **Without + verb-ing:** After the preposition *without*, use a noun or a gerund (verb-ing).
+
 - **Will:** Use it for spontaneous decisions, predictions, and promises, among other functions.
-    
+
 
 ##### Practice
 

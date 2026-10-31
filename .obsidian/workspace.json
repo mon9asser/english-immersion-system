@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stories/Story-1/Listening.md",
+                "file": "Usage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Listening"
+              "title": "Usage"
             }
           }
         ]
@@ -188,8 +188,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "31480c4a0333457f",
+  "active": "565f5c9528f6d1b3",
   "lastOpenFiles": [
+    "prompts/Vocabularies.md",
+    "Stories/Story-2/Vocabularies.md",
+    "Stories/Story-1/Vocabularies.md",
+    "Stories/Story-1/Listening.md",
+    "prompts/Idioms.md",
+    "Stories/Story-1/Idioms.md",
+    "prompts/Grammar.md",
+    "Stories/Story-1/Grammar.md",
+    "prompts/Expressions.md",
+    "Stories/Story-1/Expressions.md",
+    "Videos.md",
+    "Usage.md",
+    "prompts",
     "media/Upwork Interview/Sentences.md",
     "media/Upwork Interview/Writing.md",
     "media/Upwork Interview/Vocabularies.md",
@@ -211,20 +224,7 @@
     "media/video-1",
     "media/video-1/transcript-2.txt",
     "media/video-1/transcript-1.txt",
-    "Stories/Story-1/Listening.md",
     "Video-3/Listening.md",
-    "code/download.py",
-    "Stories/Story-2/Writing.md",
-    "Stories/Story-2/Vocabularies.md",
-    "Stories/Story-2/Listening.md",
-    "Stories/Story-2/Idioms.md",
-    "Stories/Story-2/Grammar.md",
-    "Stories/Story-2/Expressions.md",
-    "Stories/Story-2",
-    "Stories/Story-1/Writing.md",
-    "Stories/Story-1/Vocabularies.md",
-    "Stories/Story-1/Idioms.md",
-    "Stories/Story-1/Grammar.md",
-    "Stories/Story-1/Expressions.md"
+    "code/download.py"
   ]
 }

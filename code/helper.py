@@ -8,7 +8,7 @@ from pathlib import Path
 from faster_whisper import WhisperModel 
 import pandas as pd 
 
-file = Path("Speech.md")
+file = Path("Usage.md")
 
 TOTAL_COLUMNS = 8
 
