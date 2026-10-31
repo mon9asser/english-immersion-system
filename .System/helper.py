@@ -9,6 +9,7 @@ from faster_whisper import WhisperModel
 import pandas as pd 
 
 file = Path("Usage.md")
+_VIDEOS_FILE_DIR = Path("Videos.md")
 
 TOTAL_COLUMNS = 8
 
@@ -21,6 +22,7 @@ DIR__ = "./Stories"
 columns = ["No.", "Word / Expression"] + [str(i) for i in range(1, TOTAL_COLUMNS + 1)]
 
 MEDIA_OUTPUT_DIR = Path("Media")
+
 WHISPER_MODEL = "small"
 
 
@@ -129,6 +131,7 @@ def create_transcripts(video_path, output_folder, duration, interval):
     segments = list(segments)
 
     total_parts = (int(duration) + interval - 1) // interval
+    transcripts = []
 
     for part_number in range(1, total_parts + 1):
         start = (part_number - 1) * interval
@@ -144,21 +147,20 @@ def create_transcripts(video_path, output_folder, duration, interval):
             midpoint = (segment.start + segment.end) / 2
 
             if start <= midpoint < end:
-                relative_start = segment.start - start
-                relative_end = segment.end - start
+                lines.append(segment.text.strip())
 
-                lines.append(
-                    f"[{relative_start:.2f}s - "
-                    f"{relative_end:.2f}s] "
-                    f"{segment.text.strip()}"
-                )
+        transcript_text = " ".join(lines)
+
+        transcripts.append(transcript_text)
 
         transcript_file.write_text(
-            "\n".join(lines),
+            transcript_text,
             encoding="utf-8",
         )
 
         print(f"Created: {transcript_file.name}")
+
+    return transcripts
 
 
 def download(video_url, minutes):
@@ -206,12 +208,16 @@ def download(video_url, minutes):
                 interval_seconds,
             )
 
-            create_transcripts(
+            txt_transcript = create_transcripts(
                 video_path,
                 output_folder,
                 duration,
                 interval_seconds,
             )
+
+            story_content = generate_story("\n".join(txt_transcript))
+
+            create_story(video_url, story_content)
 
         print("\nAll done!")
         print(f"Files saved in: {output_folder}")
@@ -219,6 +225,20 @@ def download(video_url, minutes):
     except Exception as error:
         print(f"\nError: {error}")
 
+ 
+def generate_story(text):
+    sentences = re.split(r'(?<=[.!?])\s+', text)
+
+    paragraphs = []
+    paragraph_size = 5  # Sentences per paragraph
+
+    for i in range(0, len(sentences), paragraph_size):
+        paragraph = " ".join(sentences[i:i + paragraph_size])
+        paragraphs.append(paragraph)
+
+    formatted_text = "\n\n".join(paragraphs) 
+
+    return formatted_text
 
 def extractor(file, col=0):
 
@@ -259,7 +279,20 @@ def scan(slug='Story-'):
         if folder.is_dir() and folder.name.startswith(slug)
     ]
 
+ 
+def scan_videos(file=''):
+    file_dir = file if file != '' else _VIDEOS_FILE_DIR
 
+    with open(file_dir, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    urls = re.findall(
+        r'https?://(?:www\.)?(?:youtube\.com/watch\?v=[\w-]+|youtu\.be/[\w-]+)[^\s)]*',
+        content
+    )
+
+    return urls
+    
 def read_speech():
 
     if not file.exists() or file.stat().st_size == 0:
@@ -337,7 +370,7 @@ def update_speech():
     print(f"Added {len(new_words)} new words.")
     print(f"Total words: {len(df)}")
 
-def create_story(url, directory=helper.DIR__):
+def create_story(url, content='', directory=helper.DIR__):
 
     # Main directory
     main_dir = Path(directory)
@@ -369,7 +402,7 @@ def create_story(url, directory=helper.DIR__):
         "Idioms.md",
         "Listening.md",
         "Vocabularies.md",
-        "Writing.md"
+        "Reading.md"
     ]
 
     # Create files
@@ -379,6 +412,8 @@ def create_story(url, directory=helper.DIR__):
 
         if filename == "Listening.md":
             file_path.write_text(url + "\n", encoding="utf-8")
+        elif filename == "Reading.md":
+            file_path.write_text(content + "\n", encoding="utf-8")
         else:
             file_path.touch()
 
