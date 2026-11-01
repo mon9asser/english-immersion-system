@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Usage.md",
+                "file": "Channels.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Usage"
+              "title": "Channels"
             }
           }
         ]
@@ -190,6 +190,8 @@
   },
   "active": "ab301b5867bd8340",
   "lastOpenFiles": [
+    "Videos.md",
+    "Channels.md",
     "README.md",
     "Usage.md",
     "Stories/Story-2/Idioms.md",
@@ -209,7 +211,6 @@
     "Stories/Story-1/Idioms.md",
     "Prompts/Grammar.md",
     "Stories/Story-1/Vocabularies.md",
-    "Videos.md",
     "Stories/Story-1/Listening.md",
     "Stories/Story-1",
     "Stories",
@@ -224,7 +225,6 @@
     "Media/Upwork Interview/Vocabularies.md",
     "Media/Upwork Interview/Listening.md",
     "Media/Upwork Interview/Idioms.md",
-    "Media/Upwork Interview/Grammar.md",
-    "Media/Upwork Interview/Expressions.md"
+    "Media/Upwork Interview/Grammar.md"
   ]
 }
