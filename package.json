@@ -15,7 +15,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "setup:windows": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"irm https://astral.sh/uv/install.ps1 | iex; $env:Path += ';' + $env:USERPROFILE + '\\\\.local\\\\bin'; uv python install 3.11.9\"",
+    "setup:windows": "powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"",
+    "setup:windows:old": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"irm https://astral.sh/uv/install.ps1 | iex; $env:Path += ';' + $env:USERPROFILE + '\\\\.local\\\\bin'; uv python install 3.11.9\"",
     "setup:unix": "curl -LsSf https://astral.sh/uv/install.sh | sh && ~/.local/bin/uv python install 3.11.9",
     "venv": "uv venv --python 3.11.9",
     "install": "uv pip install --python .venv -r requirements.txt",
