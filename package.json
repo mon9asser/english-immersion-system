@@ -1,0 +1,25 @@
+{
+  "name": "english-immersion-system",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/mon9asser/english-immersion-system#readme",
+  "bugs": {
+    "url": "https://github.com/mon9asser/english-immersion-system/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mon9asser/english-immersion-system.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "setup:windows": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"irm https://astral.sh/uv/install.ps1 | iex; $env:Path += ';' + $env:USERPROFILE + '\\\\.local\\\\bin'; uv python install 3.11.9\"",
+    "setup:unix": "curl -LsSf https://astral.sh/uv/install.sh | sh && ~/.local/bin/uv python install 3.11.9",
+    "venv": "uv venv --python 3.11.9",
+    "install": "uv pip install --python .venv -r requirements.txt",
+    "download": "uv run python .System/download.py",
+    "usage": "uv run python .System/words.py"
+  }
+}

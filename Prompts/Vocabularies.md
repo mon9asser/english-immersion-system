@@ -25,9 +25,9 @@ Analyze the following English text or dialogue and extract useful English vocabu
 
 Return the results as a Markdown table using exactly these three columns:
 
-|Vocabulary|Meaning|Example Sentence|
-|---|---|---|
-|Word here|Simple explanation|New example sentence here|
+| Vocabulary | Meaning            | Example Sentence          |
+| ---------- | ------------------ | ------------------------- |
+| Word here  | Simple explanation | New example sentence here |
 
 **Important:**
 
