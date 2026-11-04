@@ -165,22 +165,24 @@ def create_transcripts(video_path, output_folder, duration, interval):
 
 def download(video_url, minutes):
     print("=== YouTube Video Splitter ===\n")
-
+    interval_seconds = None
     url = video_url.strip()
 
-    try:
-        interval = int(
-            minutes
-        )
+    if minutes.strip():
+        try:
+            interval = int(
+                minutes
+            )
 
-        if interval <= 0:
-            raise ValueError
+            if interval <= 0:
+                raise ValueError
 
-    except ValueError:
-        print("Please enter a positive whole number.")
-        return
+            interval_seconds = interval * 60
 
-    interval_seconds = interval * 60 
+        except ValueError:
+            print("Please enter a positive whole number.")
+            return
+ 
 
     try:
         with tempfile.TemporaryDirectory() as temp:
@@ -200,19 +202,19 @@ def download(video_url, minutes):
                 f"\nVideo duration: "
                 f"{duration / 60:.2f} minutes"
             )
-
+ 
             split_video(
                 video_path,
                 output_folder,
                 duration,
-                interval_seconds,
+                interval_seconds if interval_seconds is not None else duration
             )
 
             txt_transcript = create_transcripts(
                 video_path,
                 output_folder,
                 duration,
-                interval_seconds,
+                interval_seconds if interval_seconds is not None else duration
             )
 
             story_content = generate_story("\n".join(txt_transcript))
